@@ -1,10 +1,7 @@
 import React, { useState, useEffect } from "react";
-import {
-	pipeline,
-	TextGenerationPipeline,
-	type Pipeline,
-} from "@xenova/transformers";
+import { TextGenerationPipeline, type Pipeline } from "@xenova/transformers";
 import resumeData from "./assets/resume_data.json";
+import loadModel from "./model";
 
 interface Experience {
 	company: string;
@@ -30,22 +27,15 @@ const ChatBot: React.FC = () => {
 	);
 	const [input, setInput] = useState("");
 	const [chatModel, setChatModel] = useState<
-		TextGenerationPipeline | Pipeline | null
-	>(null);
+		TextGenerationPipeline | Pipeline | undefined
+	>(undefined);
 	const [loading, setLoading] = useState(true);
 
 	useEffect(() => {
-		const loadModel = async () => {
-			try {
-				const model = await pipeline("text-generation", "xenova/gpt2");
-				setChatModel(model);
-			} catch (error) {
-				console.error("Failed to load model:", error);
-			} finally {
-				setLoading(false);
-			}
-		};
-		loadModel();
+		loadModel().then((model) => {
+			setChatModel(model);
+			setLoading(false);
+		});
 	}, []);
 
 	const handleSend = async () => {
