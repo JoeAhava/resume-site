@@ -1,0 +1,131 @@
+{
+	"name": "Yohannes Terfa",
+	"title": "Full Stack Developer",
+	"summary": "Results-driven Fullstack Developer specializing in implementing scalable backend solutions, REST APIs, and automation tools using Spring Boot, Kubernetes, and Jenkins. Skilled in delivering user-focused platforms, including EKYC management systems and financial education dashboards. Committed to clean architecture, test-driven development, and optimizing operational processes.",
+	"experience": [
+		{
+			"company": "M-PESA Safaricom Ethiopia",
+			"role": "Integration Engineer",
+			"years": "Jul 2024 - Present",
+			"description": "Build REST APIs interfacing the core Mpesa System using SOAP Web Services. Develop custom backends for new products with Spring Boot. Automate operational tasks into microservices. Follow Clean Architecture and Test-Driven Development. Implement CI/CD pipelines with Jenkins and ArgoCD.",
+			"skills": [
+				"Java",
+				"Spring Boot",
+				"Kubernetes",
+				"Jenkins",
+				"PostgreSQL",
+				"SOAP",
+				"Microservices"
+			]
+		},
+		{
+			"company": "Safaricom Ethiopia",
+			"role": "EKYC Platform Champion",
+			"years": "Feb 2023 - Jul 2024",
+			"description": "Provided L1 support for technical issues on the EKYC platform. Collaborated with the Dev team to identify and resolve production issues. Managed EKYC devices (POS). Automated EKYC device management with a custom portal.",
+			"skills": [
+				"Spring Boot",
+				"PostgreSQL",
+				"React.js",
+				"Tailwind CSS",
+				"Kubernetes"
+			]
+		},
+		{
+			"company": "Safaricom Ethiopia",
+			"role": "QA Engineer",
+			"years": "Aug 2022 - Feb 2023",
+			"description": "Built test cases for new and existing features. Performed manual testing and reported issues. Automated tests using Selenium, Cypress, and Kaaptivate.",
+			"skills": [
+				"Manual QA",
+				"Selenium",
+				"Cypress",
+				"Test Case Design",
+				"Automation Testing"
+			]
+		},
+		{
+			"company": "Flip and Floss INC",
+			"role": "Fullstack Developer",
+			"years": "May 2023 - Jan 2024",
+			"description": "Developed a financial literacy dashboard for kids. Converted UI/UX designs from Figma into a React.js frontend. Built a robust Django backend to handle business logic.",
+			"skills": [
+				"React.js",
+				"Django",
+				"PostgreSQL",
+				"HTML",
+				"CSS",
+				"JavaScript"
+			]
+		}
+	],
+	"projects": [
+		{
+			"name": "Flip Academy - Flip and Floss INC",
+			"link": "https://www.flipacademy.ca/",
+			"description": "A dashboard for kids to learn financial literacy with parental guidance and involvement.",
+			"skills": ["React.js", "Django", "PostgreSQL"]
+		},
+		{
+			"name": "EDM (EKYC Device Management) - Safaricom Ethiopia",
+			"link": "[Internal Tool]",
+			"description": "A dashboard for the sales team to effectively manage and oversee EKYC device distribution.",
+			"skills": ["Spring Boot", "React.js", "PostgreSQL", "Kubernetes"]
+		},
+		{
+			"name": "OTP Payment Middleware - M-PESA Safaricom Ethiopia",
+			"link": "[Integration to POS Systems]",
+			"description": "A Spring Boot service that handles OTP-based payments, consuming a SOAP web service for transaction processing.",
+			"skills": ["Spring Boot", "SOAP", "REST API", "PostgreSQL"]
+		},
+		{
+			"name": "Fuel Payment - M-PESA Safaricom Ethiopia",
+			"link": "[Integration to National Fuel Aggregator]",
+			"description": "A Spring Boot service handling fuel payments through a REST API that consumes a SOAP web service. Includes a reconciliation cron job to cancel payments without proper callbacks.",
+			"skills": [
+				"Spring Boot",
+				"SOAP",
+				"Microservices",
+				"PostgreSQL",
+				"Cron Jobs"
+			]
+		},
+		{
+			"name": "Cashier Incentive - M-PESA Safaricom Ethiopia",
+			"link": "[Integration to Core M-PESA]",
+			"description": "A Spring Boot service that enables campaign organizers to register cashiers and supermarkets, configure incentive metrics and SMS templates, and automate incentive payouts for transactions.",
+			"skills": ["Spring Boot", "PostgreSQL", "REST API", "Automation"]
+		}
+	],
+	"skills": [
+		"Java",
+		"Spring Boot",
+		"React.js",
+		"Node.js",
+		"Django",
+		"PostgreSQL",
+		"Kubernetes",
+		"Jenkins",
+		"Tailwind CSS",
+		"Selenium",
+		"Cypress",
+		"SOAP",
+		"Microservices",
+		"REST API",
+		"Automation",
+		"Test Case Design",
+		"Cron Jobs",
+		"HTML",
+		"CSS",
+		"JavaScript"
+	],
+	"education": {
+		"degree": "BSc in Software Engineering",
+		"university": "Mekelle University",
+		"location": "Addis Ababa, Ethiopia"
+	},
+	"contact": {
+		"phone": ["+251985786428", "+251799106428"],
+		"email": ["yohannesterfa1990@gmail.com", "lightshadow011@gmail.com"]
+	}
+}
